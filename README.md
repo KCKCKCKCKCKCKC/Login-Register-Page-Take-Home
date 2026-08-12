@@ -7,20 +7,20 @@
 - Vitest + React Testing Library (unit tests)
 
 ## Setup / Install
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ## Running Locally
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 App runs at http://localhost:5173
 
 ## Running Tests
-\`\`\`bash
+```bash
 npm run test
-\`\`\`
+```
 
 ## Mock User Credentials / Roles
 | Email | Password | Role |
