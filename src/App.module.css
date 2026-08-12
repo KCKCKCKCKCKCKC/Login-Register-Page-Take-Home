@@ -1,0 +1,27 @@
+.wrapper {
+  min-height: 900px;
+  background-size: cover;
+  background-image: url(./assets/background.jpg);
+}
+
+.form {
+  border-right: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+  min-height: 900px;
+  max-width: 450px;
+  padding: 30px;
+  padding-top: 100px;
+  border-radius: 0;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    max-width: 100%;
+  }
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-family: Outfit, var(--mantine-font-family);
+  font-weight: 300;
+  text-align: left;
+  margin-top: var(--mantine-spacing-md);
+  margin-bottom: 50px;
+}
