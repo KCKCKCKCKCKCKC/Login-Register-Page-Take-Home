@@ -50,5 +50,3 @@ npm run test
 - No session persistence.
 - No server validation for form inputs.
 
-## AI Usage
-I used Claude (Anthropic) to help write the mock auth/MFA logic, generate the unit tests, and write up the README, but provided the initial scaffolding code for both the form submission logic and the UI, as well as edited it after it was generated. I reviewed and understood all code before submitting. I would have preferred to use less AI in development, as it sometimes can be wrong when generating code, but I am not spending more than a few hours on a take home assignment, sorry. 
